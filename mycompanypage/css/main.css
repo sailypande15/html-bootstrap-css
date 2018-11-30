@@ -1,0 +1,158 @@
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 10%;
+    background-color:black;
+    list-style-type: square;
+}
+.carousel-indicators .active {
+    width: 10px;
+     height: 10px;
+     margin: 5px;
+    background-color: gray;
+}
+h1{
+    color:black
+}
+.item img {
+    opacity: 0.5;
+}
+.item {
+    height: 300px;
+}
+.containernopadding{
+    margin: 0;
+    padding: 0;
+}
+.black{
+    color:black;
+}
+.footer {
+width: 100%;   
+
+}
+.footerdiv {
+width: 25%;
+height: 100%;
+padding: 10px;
+float: left;
+background-color:black;
+color: white;
+
+}
+.footerdiv ul{
+list-style: none;
+}
+
+.footerdiv li a{
+text-decoration: none;
+color: white;
+font-size: 10px;
+}
+.modal-body {
+max-height:400px; 
+overflow-y: auto;
+}
+.paddingbottom5px{
+    padding-bottom: 5px;
+}
+.backgroundcolorblack{
+    background-color:rgb(137, 138, 141);
+    color: white;   
+}
+.backgroundcolorgray{
+    background-color:rgb(229, 230, 235);
+}
+.col-sm-offset-2  label a{
+    font-size: 10px;
+    padding:2px;
+}
+.removemovepadding{
+    padding:0;
+}
+.innerContainer{
+    padding: 5px;
+    height: 500px;
+}
+.iframediv{
+    float:left;
+    padding:5px;
+}
+.carosel-height{
+    height: 300px;
+    width: 100%;
+}
+.scroll{
+    overflow: auto;
+    height: 100%;
+}
+.advertisementContainer1{
+    width: 100%;
+    height: 50%;
+    border-right: 2px dotted rgb(155, 155, 156);
+}
+
+.square1{
+    position: relative;
+    top:5px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(155, 155, 156);
+
+}
+
+.backgrimg1{
+    background-image: url("../images/ceo.jpg");
+    background-repeat: no-repeat;
+}
+.backgrimg2{
+    background-image: url("../images/coo.jpg");
+    background-repeat: no-repeat;
+}
+.square2{
+    position: relative;
+    left: 120px;
+    top: 120px;
+    width: 200px;
+    height: 120px;
+    background-color:rgb(138, 140, 145);
+    color:white;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic; 
+
+}
+.col-sm-12 h1{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+#quotesdiv {
+    quotes: "“"  """;
+}
+.col-sm-2 ul{
+    list-style: none;
+
+}
+
+.margin10px{
+    margin-top:5px;
+    margin-bottom: 10px;
+    padding:10px 10px 10px 10px;
+}
+
+.paddingleft{
+    padding-left:10px;
+}
+.formdiv1{
+    padding:25px;
+   background-color: rgb(189, 189, 192);
+}
+   
+
+.nav-item a{
+    background-color: rgb(189, 189, 192);
+}

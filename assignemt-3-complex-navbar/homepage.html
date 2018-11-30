@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Select Country</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+       .button-round {
+           border-radius: 15px;
+        } 
+        .menu1{
+            margin:0px;
+            padding:10px;
+        }
+        .column{
+            padding-right: 30px;
+            box-sizing: border-box;            
+        }
+        .column h4{
+            color:blue;
+            text-align: left;
+        }
+        .column ul{
+            list-style: none;
+            padding: 0;
+        }
+        .column li{
+            list-style: none;
+        }
+        .column a{
+            color:rgb(109, 106, 106);
+            font-size: 12px;
+        }
+        .padding1ng5px{
+            padding:0;
+            margin: 0 0 5px 0;
+        }  
+       
+        .caption{
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            font-style: italic;
+           
+        }
+        .paddingBotton{
+            padding-bottom: 0;
+            margin: 0;
+        }
+        body {
+            background-color: rgb(75, 73, 73);
+        }
+        #menuList{
+            background-color:white;
+        }
+            
+    </style>
+    </head>
+<body>
+
+        
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand " href="#">Brand</a>
+                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">                    
+                        <ul class="nav navbar-form navbar-right" id="loginBtn">
+                                <li><button class="btn btn-default button-round " data-toggle="collapse" data-target="#menu,#login_form"><span class="glyphicon glyphicon-user"></span> Sign Up</button></li>
+                        </ul>
+                    <ul class="nav navbar-nav navbar-right collapse in" id="menu">
+                      <li><a href="#" class="active">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li> 
+                          <a href="#" data-toggle="collapse" data-target="#menuList">Menu <i class="fa fa-caret-down"></i></a>
+                       </li>
+                      <li><a href="#">News</a></li>
+                      <li><a href="#">Contact</a></li>                      
+                    </ul>
+                        <form class="navbar-form navbar-right collapse" id="login_form">
+                                <div class="form-group">
+                                <input type="text" class="form-control" placeholder="username">
+                                <input type="password" class="form-control" placeholder="password">
+                                </div>
+                                <button type="submit" class="btn btn-success"> Login </button>
+                            </form>
+                  </div>
+                  
+                  <!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+<div id="menuList" class="collapse menu1 container">
+  <div class="column col-sm-3"> 
+      <h4>New In Store </h4>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         <!-- Wrapper for slides -->
+        <div class="carousel-inner ">
+            <div class="item active">
+                <img src="./images/painting1.jpg" alt="Chicago"  height="400px">
+                <div class="caption">Beuatiful Scenary</div>
+                <div class="form-group">
+                    <button value="99.99" class="btn btn-info">99.99<i class="glyphicon glyphicon-eur"></i></button>
+                     <button value="Add To Favourites" class="btn btn-default"><i class="fa fa-heart"></i>Add To Favourites</button>
+                    
+                </div>
+             </div>
+        
+            <div class="item">
+                <img src="./images/painting2.jpg" alt="Chicago" height="400px">
+                <div class="caption">A Perfect Wall Piece</div>
+                <div class="form-group">
+                        <button value="10.5" class="btn btn-info">99.99<i class="glyphicon glyphicon-eur"></i></button>
+                         <button value="Add To Favourites" class="btn btn-default"><i class="fa fa-heart"></i>Add To Favourites</button>
+                        
+                    </div>
+            </div>
+        
+            <div class="item">
+            <img src="./images/painting3.jpg" alt="New York" height="400px">
+            <div class="caption">Colourful Sunset</div>
+            <div class="form-group">
+                    <button value="4.0" class="btn btn-info">99.99<i class="glyphicon glyphicon-eur"></i></button>
+                     <button value="Add To Favourites" class="btn btn-default"><i class="fa fa-heart"></i>Add To Favourites</button>
+                    
+            </div>
+            </div>
+        </div>
+        <hr class="half-rule"/>
+
+        <div>
+        </div>
+    </div> 
+   <div>
+           <span> View all Collections </span>
+                <span class="glyphicon glyphicon-chevron-right" style="float: right"></span>
+            
+            </li>
+    </div>  
+  </div>
+  <div class="column col-sm-3"> 
+      <h4>Dresses </h4>
+      <ul>
+            <li><a href="http://">Unique Features</a></li>
+            <li><a href="http://">Image Responsive</a></li>
+            <li><a href="http://">Auto Carousel</a></li>
+            <li><a href="http://">Newsletter Form</a></li>
+            <li><a href="http://">Four Columns</a></li>
+        </ul>
+        <hr class="half-rule"/>
+        <h4>Tops </h4>
+        <ul>
+                <li><a href="http://">Good Typography</a></li>               
+        </ul>
+   </div>
+  <div class="column col-sm-3"> 
+      <h4>Jackets </h4>
+      <ul>
+            <li><a href="http://">Easy To Customize</a></li>
+            <li><a href="http://">Glyphicons</a></li>
+            <li><a href="http://">Pull Right Element</a></li>
+           
+        </ul>
+        <hr class="half-rule"/>
+        <h4>Pants </h4>
+        <ul>
+                <li><a href="http://">Coloured Headers</a></li> 
+                <li><a href="http://">Primary Buttons & Defaults</a></li>
+                <li><a href="http://">Call To Action</a></li>               
+        </ul>
+    
+  </div>
+  <div class="column col-sm-3"> 
+      <h4>Accessories </h4>
+      <ul>
+            <li><a href="http://">Easy To Customize</a></li>
+            <li><a href="http://">Glyphicons</a></li>
+            <li><a href="http://">Pull Right Element</a></li>
+           
+        </ul>
+        <hr class="half-rule"/>
+        <h4>News Letter </h4>
+        <form action="" class="form">
+            <div class="form-group col-sm-10 padding1ng5px">
+               <input type="email" name="emailAddress" id="emailAddress" class="form-control" placeholder="Enter Email">
+            </div>
+            
+            <div class="form-group padding1ng5px">
+               <input type="submit" value="Sign In" class="col-sm-10 btn btn-info">
+            </div>
+           
+        </form>
+    
+    </div>
+</div>
+
+              
+</body>
+</html>
